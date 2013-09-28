@@ -6,7 +6,7 @@ Golang load balanced server/client monitoring. Escalation service support. Easy 
 Get Started
 -----------
 
-### You first node (the server)
+### Server node
 
     joel@freyr:~> ./lert # Server mode by default
 
@@ -23,7 +23,7 @@ Get Started
     Control URL: http://127.0.0.1:11811
     Monitoring URL: http://127.0.0.1:11911
     
-### Other nodes
+### Client node(s)
 
     joel@tyr:~> ./lert --server=192.168.0.1:11912 # Change the IP address to match your system
 
