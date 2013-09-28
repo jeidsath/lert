@@ -6,9 +6,11 @@ Golang load balanced server/client monitoring. Escalation service support. Easy 
 Get Started
 -----------
 
+### You first node (the server)
+
     joel@freyr:~> ./lert # Server mode by default
 
-Output:
+#### Server output:
 
     Starting up ... Monitoring 1 server (myself)! No remote clients.
     Couldn't log to /var/log/lert/server.log Please create /var/log/lert directory, and set permissions!
@@ -21,11 +23,11 @@ Output:
     Control URL: http://127.0.0.1:11811
     Monitoring URL: http://127.0.0.1:11911
     
-Add a client on another node.
+#### Other nodes
 
     joel@tyr:~> ./lert --server=192.168.0.1:11912 # Change the IP address to match your system
 
-Output:
+### Client output:
     
     Starting up ... Client mode!
     Couldn't log to /var/log/lert/client.log Please create /var/log/lert directory, and set permissions!
