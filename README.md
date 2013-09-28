@@ -23,11 +23,11 @@ Get Started
     Control URL: http://127.0.0.1:11811
     Monitoring URL: http://127.0.0.1:11911
     
-#### Other nodes
+### Other nodes
 
     joel@tyr:~> ./lert --server=192.168.0.1:11912 # Change the IP address to match your system
 
-### Client output:
+#### Client output:
     
     Starting up ... Client mode!
     Couldn't log to /var/log/lert/client.log Please create /var/log/lert directory, and set permissions!
