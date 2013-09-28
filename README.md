@@ -1,7 +1,7 @@
 Lert - High reliability systems monitoring
 ====
 
-Golang load balanced server/client monitoring. Escalation service support with PagerDuty. Easy setup, sane defaults, simple configuration.
+Golang load balanced server/client monitoring. Escalation service support. Easy setup, sane defaults, simple configuration.
 
 Get Started
 -----------
