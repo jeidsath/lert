@@ -1,7 +1,12 @@
 Lert - High reliability systems monitoring
 ====
 
-Golang load balanced server/client monitoring. Escalation service support. Easy setup, sane defaults, simple configuration.
+Golang load balanced server/client monitoring. 
+
+*Escalation service support.
+*Easy setup.
+*Sane defaults.
+*Simple configuration.
 
 Get Started
 -----------
